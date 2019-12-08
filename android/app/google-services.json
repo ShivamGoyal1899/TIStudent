@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "361058898858",
+    "firebase_url": "https://tistudent.firebaseio.com",
+    "project_id": "tistudent",
+    "storage_bucket": "tistudent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361058898858:android:8865ef598ff9a0b9d1d1d3",
+        "android_client_info": {
+          "package_name": "co.shivamgoyal.tistudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361058898858-a2bahut0l8lsq4drpq9orp4iuaoqn4db.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.shivamgoyal.tistudent",
+            "certificate_hash": "2895557b43228ec2a0650d18f9d5d60b71545129"
+          }
+        },
+        {
+          "client_id": "361058898858-0159klqjakjsrs55nuq82ekpvbfslp1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrEDBkiR5lwy-QF5CEpjSOV5yhG8lN2Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361058898858-0159klqjakjsrs55nuq82ekpvbfslp1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
