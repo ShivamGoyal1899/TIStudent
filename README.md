@@ -1,5 +1,5 @@
 ## TIStudent
-This is the code repository of the Voice-Based TIStudent Android App. Bharat Interface for Money (TIStudent) is a payment app that lets you make simple, easy and quick transactions using Unified Payments Interface (UPI). This app is designed & developed by Team AeroCoders in NPCI Voice-Based Payments Hackathon held on 14th December 2019 in Mumbai, India.
+This is the code repository of the Thapar Institute Student App **TIStudent**.
 
 The source code is **100% Dart**, and everything resides in the [/lib](https://github.com/ShivamGoyal1899/TIStudent/tree/master/lib) folder.
 
@@ -14,40 +14,27 @@ The source code is **100% Dart**, and everything resides in the [/lib](https://g
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-seagreen?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![License](https://img.shields.io/badge/license-MIT-red.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Repo Size](https://img.shields.io/github/repo-size/ShivamGoyal1899/TIStudent?style=for-the-badge)](https://github.com/ShivamGoyal1899/TIStudent)
-[![Release](https://img.shields.io/github/v/release/ShivamGoyal1899/TIStudent?style=for-the-badge&include_prereleases&sort=semver)](https://github.com/ShivamGoyal1899/TIStudent/releases/download/v0.9.0-beta/TIStudent.v0.9.0-beta.apk)
+[![Release](https://img.shields.io/github/v/release/ShivamGoyal1899/TIStudent?style=for-the-badge&include_prereleases&sort=semver)](https://github.com/ShivamGoyal1899/TIStudent/releases/download/v0.0.1-alpha/TIStudent.v0.0.1-alpha.apk)
 
 
 ## Download Android App
-[![here](https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://matheusitsolution.com/wp-content/themes/matheus/images/downloadapp.png)](https://github.com/ShivamGoyal1899/TIStudent/releases/download/v0.9.0-beta/TIStudent.v0.9.0-beta.apk)
+[![here](https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://matheusitsolution.com/wp-content/themes/matheus/images/downloadapp.png)](https://github.com/ShivamGoyal1899/TIStudent/releases/download/v0.9.0-alpha/TIStudent.v0.9.0-alpha.apk)
 
 ## Tech Stack
-* Flutter
-* InHouse Blockchain Database
-* InHouse Intent Recognition API
-* Google Voice Recognition API
-* Infinit UPI Platform
+- Flutter
 
-## API Hosting
-* Amazon Lightsail
-* Heroku
 
 ## Flutter Packages Used
-* url_launcher: ^5.2.5
-* local_auth: ^0.6.0+1
-* flutter_lock_screen: ^1.0.6
-* android_device_info: ^1.0.0
-* font_awesome_flutter: ^8.5.0
-* barcode_scan: ^1.0.0
-* qr_flutter: ^3.1.0
-* path_provider: ^1.4.0
-* screenshot_and_share: ^0.0.2
-* speech_recognition: ^0.3.0
-* scratcher: ^1.2.1
-* http: ^0.12.0
-* permission_handler: ^4.0.0
-* native_contact_picker: ^0.0.6
-* simple_rsa: ^0.0.5
-* random_string: ^1.1.0
+- url_launcher: ^5.2.5
+- font_awesome_flutter: ^8.5.0
+- path_provider: ^1.4.0
+- screenshot_and_share: ^0.0.2
+- http: ^0.12.0
+- permission_handler: ^4.0.0
+- flutter_html: ^0.10.4
+- firebase_auth: ^0.14.0+2
+- google_sign_in: ^4.0.6
+- cloud_firestore: ^0.12.9
 
 ## Versioning
 We've used [Semantic Versioning 2.0.0](https://semver.org/) for versioning throughout the app.
@@ -60,11 +47,6 @@ We've used [Semantic Versioning 2.0.0](https://semver.org/) for versioning throu
 <a href="https://linkedin.com/in/ShivamGoyal1899"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
 <a href="https://facebook.com/ShivamGoyal1899"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
 <a href="https://instagram.com/shivamgoyal.co"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
-## Main Collaborators - Team AeroCoders
-
-### [Utkarsh Mishra](https://github.com/utkarsh1148) (Blockchain Dev)
-### [Mankaran Singh](https://github.com/MankaranSingh) (ML Dev)
 
 ## Found this project useful?
 
@@ -103,5 +85,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 ```

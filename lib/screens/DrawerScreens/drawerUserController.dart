@@ -158,16 +158,16 @@ class _DrawerUserControllerState extends State<DrawerUserController>
                           ignoring: scrolloffset == 1 ? true : false,
                           child: widget.screenView == null
                               ? Container(
-                            color: Colors.white,
-                          )
+                                  color: Colors.white,
+                                )
                               : widget.screenView,
                         ),
                         scrolloffset == 1.0
                             ? InkWell(
-                          onTap: () {
-                            onDrawerClick();
-                          },
-                        )
+                                onTap: () {
+                                  onDrawerClick();
+                                },
+                              )
                             : SizedBox(),
                         Padding(
                           padding: EdgeInsets.only(
@@ -185,11 +185,11 @@ class _DrawerUserControllerState extends State<DrawerUserController>
                                   child: widget.menuView != null
                                       ? widget.menuView
                                       : AnimatedIcon(
-                                      icon: widget.animatedIconData != null
-                                          ? widget.animatedIconData
-                                          : AnimatedIcons.arrow_menu,
-                                      color: Colors.transparent,
-                                      progress: iconAnimationController),
+                                          icon: widget.animatedIconData != null
+                                              ? widget.animatedIconData
+                                              : AnimatedIcons.arrow_menu,
+                                          color: Colors.transparent,
+                                          progress: iconAnimationController),
                                 ),
                                 onTap: () {
                                   FocusScope.of(context)
