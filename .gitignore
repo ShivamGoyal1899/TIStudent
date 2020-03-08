@@ -38,3 +38,6 @@ lib/generated_plugin_registrant.dart
 
 # Database
 /database/
+
+# Firebase
+/android/app/google-services.json
