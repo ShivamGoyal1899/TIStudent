@@ -6,7 +6,7 @@
 
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="tistudent"
+        android:label="TIStudent"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name="edu.thapar.tistudent.MainActivity"
