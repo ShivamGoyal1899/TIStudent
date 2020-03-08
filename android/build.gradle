@@ -1,14 +1,11 @@
-//noinspection GradleDependency
 buildscript {
-    ext.kotlin_version = '1.2.71'
     repositories {
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.android.tools.build:gradle:3.5.0'
         classpath 'com.google.gms:google-services:4.2.0'
     }
 }
@@ -18,9 +15,9 @@ allprojects {
         google()
         jcenter()
     }
-    configurations.all {
-        resolutionStrategy.force "androidx.core:core:1.1.0"
-    }
+//    configurations.all {
+//        resolutionStrategy.force "androidx.core:core:1.1.0"
+//    }
 }
 
 rootProject.buildDir = '../build'

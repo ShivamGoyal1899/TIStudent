@@ -1,8 +1,9 @@
 name: TIStudent
 description: Thapar Institute Student App
 version: 0.0.1+1
-repository: https://github.com/ShivamGoyal1899/TIStudent
-author: Shivam Goyal
+repository: https://github.com/FlutterClub/TIStudent
+authors:
+  - Shivam Goyal
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

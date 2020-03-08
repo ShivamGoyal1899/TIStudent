@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class myAppBar extends StatelessWidget implements PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
 
   @override
   final Size preferredSize;
 
-  myAppBar({@required this.title}) : preferredSize = Size.fromHeight(65.0);
+  CustomAppBar({@required this.title}) : preferredSize = Size.fromHeight(65.0);
 
   @override
   Widget build(BuildContext context) {
